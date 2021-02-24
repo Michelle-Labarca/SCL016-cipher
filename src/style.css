@@ -44,7 +44,7 @@ body               {
     font-family: 'Roboto Mono', monospace;
 }
 
-.text1              {
+.textinformation   {
     font-size: 19px;
     color: blanchedalmond;
     text-align: center;
@@ -54,10 +54,10 @@ body               {
     font-family: 'Roboto Mono', monospace;
 }
 
-.text2              {
+mark           {
     font-size: 23px;
     color: blanchedalmond;
-    font-weight: 900;
+    background-color: #1dc0b55b;
     text-align: center;
     text-align: justify;
     margin-left: 5cm;
@@ -65,11 +65,18 @@ body               {
     font-family: 'Roboto Mono', monospace;
 }
 
-.enlace             {
+.link               {
     text-align: center;
     font-size: 40px;
     color: #f20079;
     margin-top: 60px;
     margin-bottom: 60px;    
     font-family: 'Press Start 2P';
+}
+
+label               {
+    color: blanchedalmond;
+    font-size: 25px;
+    margin-left: 5cm;
+    
 }

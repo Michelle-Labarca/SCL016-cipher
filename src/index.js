@@ -1,8 +1,8 @@
-/*import cipher from './cipher.js';
+import cipher from './cipher.js';
 
-console.log(cipher);*/
+console.log(cipher);
 
-/*Imagen con doble click salta alerta*/
+/*Imagen alert con doble click */
 document.getElementById('myImg').ondblclick = function() { alert
 ('Qs tyihiw iwtivev gsqwxvymv yq pyqhs pinsv wmq pinsvev e oew tivwsqew. Gehe yqs hi qswsxvsw hifi xvefenev teve wy tvstme pinsve.')  
 }
