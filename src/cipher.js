@@ -1,4 +1,4 @@
-window.cipher = {
+const cipher = {
   /*función para codificar*/
   encode: (move, message) => {
     /*Se pasa todo a mayúscula*/
@@ -45,3 +45,4 @@ window.cipher = {
     
   }
 }
+export default cipher;

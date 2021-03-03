@@ -27,10 +27,10 @@
       <p class="link" id="hint">¡Éxito!</p> 
       <!--Ingresar número de posiciones-->
       <p><label for="name">Número de posiciones</label>
-      <input type="number" id="Position" style="width: 100px;"></p>
+      <input type="number" id="Position" style="width: 100px;" min="0"></p>
     
       <!--Ingresar texto-->
-      <textarea rows="10" cols="50" id="Youtext" required>Escribe aquí el texto</textarea>
+      <textarea rows="10" cols="50" id="Youtext" required>Escribe aquí el texto...</textarea>
       <!--Botones para cifrar y descifrar-->
       <p class="button">
       <input type="submit" id="Cifrar" value="Cifrar" style="width:100px; height:25px">
@@ -42,6 +42,5 @@
     </main>
 
   <script type="module" src="index.js"></script>
-  <script type="module" src="cipher.js"></script>
   </body>
 </html>

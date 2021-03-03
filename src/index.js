@@ -1,11 +1,7 @@
-window.onload = function(){
+import cipher from "./cipher.js";
 
 /*Imagen alert con doble click */
-document.getElementById('myImg').ondblclick = function() { alert
-('uv wblklz lzwlyhy jvuzaybpy bu tbukv tlqvy zpu tlqvyhy h shz wlyzvuhz. jhkh buv kl uvzvayvz klil ayhihqhy whyh zb wyvwph tlqvyh.')  
-}
-
-
+document.getElementById('myImg').ondblclick = function() { alert("UV WBLKLZ LZWLYHY JVUZAYBPY BU TBUKV TLQVY ZPU TLQVYHY H SHZ WLYZVUHZ JHKH BUV KL UVZVAYVZ KLIL AYHIHQHY WHYH ZB WYVWPH TLQVYH")}
 /* Cambio de texto con doble click*/
 document.getElementById('hint').ondblclick = function() {changeText()};
 
@@ -19,7 +15,7 @@ function changeText() {
   /* Obtenemos mensaje y desplazamiento */
   var move = document.getElementById("Position").value;
   var message = document.getElementById("Youtext").value;
-  document.getElementById("Result").value = window.cipher.encode(move,message);
+  document.getElementById("Result").value = cipher.encode(move,message);
   }
 
   /* Botón de descifrado*/
@@ -27,8 +23,5 @@ function changeText() {
   /* Obtenemos mensaje y desplazamiento */
   var move = document.getElementById("Position").value;
   var message = document.getElementById("Youtext").value;  
-  document.getElementById("Result").value = window.cipher.decode(move,message);
-  }
-
-}
-
+  document.getElementById("Result").value = cipher.decode(move,message);
+  };
