@@ -83,15 +83,43 @@ label               {
     font-family: "Roboto Mono", monospace;
 }
 
-textarea                {
-    width: 20cm;
-    display: block;
+.newtext                {
+    font-size: 19px;
+    width: 50%;
     margin-left: 10.5cm;
+    border-radius: 5px;
 }
 
-.button             {
+.button         {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 15cm;
-    margin-right: 15cm;
+    margin-left: 14cm;
+    margin-right: 14cm;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+.buttonCifrar           {
+    font-size: 19px;
+    width: 30%;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #f20079;
+    color: white;
+}
+
+.buttonDescifrar        {
+    font-size: 19px;
+    width: 30%;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #f20079;
+    color: white;
+}
+.resulttext             {
+    font-size: 19px;
+    width: 50%;
+    margin-left: 10.5cm;
+    margin-bottom: 100px;
+    border-radius: 3px;
 }
