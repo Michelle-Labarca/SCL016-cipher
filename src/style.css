@@ -36,7 +36,7 @@ body               {
     font-family: 'Roboto Mono', monospace;   
 }
 
-.content-header h2 {
+h2                 {
     font-size: 50px;
     color: #1dc0b6;
     display: flex;
@@ -79,4 +79,17 @@ label               {
     font-size: 25px;
     margin-left: 5cm;
     
+}
+
+#position           {
+    width: 3em;
+}
+
+.cifrado            {
+    margin-left: 5cm;
+}
+
+.button             {
+    margin-left: 5cm;
+    margin-bottom: 100px;
 }
