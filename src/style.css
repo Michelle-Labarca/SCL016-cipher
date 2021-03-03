@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
 
 body               {
 
@@ -17,7 +17,7 @@ body               {
     margin-top: 2cm;
     display: flex;
     justify-content: center;
-    font-family: 'Press Start 2P';
+    font-family: "Press Start 2P";
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ body               {
     color: blanchedalmond;
     text-align: center;
     margin-top: 60px;
-    font-family: 'Roboto Mono', monospace;   
+    font-family: "Roboto Mono", monospace;   
 }
 
 h2                 {
@@ -41,7 +41,7 @@ h2                 {
     color: #1dc0b6;
     display: flex;
     justify-content: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 .textinformation   {
@@ -51,7 +51,7 @@ h2                 {
     text-align: justify;
     margin-left: 5cm;
     margin-right: 5cm;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 mark           {
@@ -62,7 +62,7 @@ mark           {
     text-align: justify;
     margin-left: 5cm;
     margin-right: 5cm;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 .link               {
@@ -71,25 +71,27 @@ mark           {
     color: #f20079;
     margin-top: 60px;
     margin-bottom: 60px;    
-    font-family: 'Press Start 2P';
+    font-family: "Press Start 2P";
 }
+
+
 
 label               {
     color: blanchedalmond;
-    font-size: 25px;
-    margin-left: 5cm;
-    
+    font-size: 25px; 
+    margin-left: 15cm;
+    font-family: "Roboto Mono", monospace;
 }
 
-#position           {
-    width: 3em;
-}
-
-.cifrado            {
-    margin-left: 5cm;
+textarea                {
+    width: 20cm;
+    display: block;
+    margin-left: 10.5cm;
 }
 
 .button             {
-    margin-left: 5cm;
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15cm;
+    margin-right: 15cm;
 }
