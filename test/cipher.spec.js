@@ -59,7 +59,6 @@ describe('cipher', () => {
   });
 
   describe('cipher.decode', () => {
-
     it('should be a function', () => {
       expect(typeof cipher.decode).toBe('function');
     });

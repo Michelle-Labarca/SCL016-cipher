@@ -21,23 +21,22 @@
           consiste en sustituir cada letra del mensaje por la que está <em><b>n</b></em> 
           posiciones más adelante o atrás en el alfabeto. Si n = 3, la A se sustituiría por la D, la B por
           E, la C por la F y así sucesivamente.</p>
-      <p><mark>Las pistas están ocultas en esta 
-        página, igual que el desplazamiento para descifrarlo.</mark></p>
+      <p class="information">Las pistas están ocultas en esta página, igual que el desplazamiento para descifrarlo.</p>
      <!--Cambio de texto-->
       <p class="link" id="hint">¡Éxito!</p> 
       <!--Ingresar número de posiciones-->
-      <p><label for="name">Número de posiciones</label>
+      <p class="numberPosition"> <label> Número de posiciones </label>
       <input type="number" id="Position" style="width: 100px;" min="0"></p>
     
       <!--Ingresar texto-->
-      <textarea class="newtext" rows="10" cols="50" id="Youtext" required>Escribe aquí el texto...</textarea>
+      <textarea class="newtext" rows="5" cols="50" id="Youtext" required>Escribe aquí el texto...</textarea>
       <!--Botones para cifrar y descifrar-->
       <p class="button">
       <input class="buttonCifrar" type="submit" id="Cifrar" value="Cifrar">
       <input class="buttonDescifrar" type="submit" id="Descifrar" value="Descifrar">
       </p>
       <!--Resultado texto-->
-      <textarea class="resulttext" rows="10" cols="50" id="Result" required></textarea>
+      <textarea class="resulttext" rows="5" cols="50" id="Result" required></textarea>
       
     </main>
 
